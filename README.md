@@ -1,1 +1,4 @@
-# PROG6221-POE
+UI Organization: The layout was restructured using StackPanel for better alignment and grouping of controls, improving visual clarity and user experience.
+Input Controls: Added TextBoxes and ComboBox (FoodGroupComboBox) for recipe details such as name, ingredients, food group, ingredient calories, max calories, and scale factor. This enhances input handling and user interaction.
+Button Functionality: Each button was linked to specific event handlers (Click events), enabling functionality like entering recipe details, displaying all or specific recipes, scaling recipes, resetting quantities, clearing recipes, filtering based on criteria, creating menus, and exiting the application.
+ListBox Display: The ListBox (RecipeListBox) was configured with an ItemTemplate to display recipe names, ensuring recipes are visually represented in a clear and organized manner.
